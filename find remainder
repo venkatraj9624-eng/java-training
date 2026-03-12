@@ -1,0 +1,11 @@
+import java.util.*;
+public class Solution {
+    public static void main(String[] args){
+        int a,b,rem;
+        Scanner c=new Scanner(System.in);
+        a=c.nextInt();
+        b=c.nextInt();
+        rem=a%b;
+        System.out.println(rem);
+    }
+}
